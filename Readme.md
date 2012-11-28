@@ -25,6 +25,9 @@ Example (refer to the test file at test/data/testfile.js):
         testfunction3: { 
           annotation: 'annotation for variable assigned function' } }
     });
+    
+    // Synchronous
+    var result = annotations.getSync('test/data/testfile.js');
 
 Installation:
 ------------------------
