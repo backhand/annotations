@@ -12,7 +12,7 @@ function testfunction1() {
  *
  * @annotation annotation for testfunction2
  */
-exports.testfunction2 = function() {
+ exports.testfunction2  =  function() {
   
 };
 
@@ -21,6 +21,14 @@ exports.testfunction2 = function() {
 * @annotation annotation for anonymous function export
 */
 module.exports = function() {
+  
+};
+
+/**
+*
+* @annotation annotation for variable assigned function
+*/
+var testfunction3 = function() {
   
 };
 

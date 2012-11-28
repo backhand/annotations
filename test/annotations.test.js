@@ -9,6 +9,7 @@ exports['Test 1: data/testfile.js'] = function(test) {
     test.equal(result.testfunction1.someotherkey, 'someothervalue');
     test.equal(result.testfunction2.annotation, 'annotation for testfunction2');
     test.equal(result.anonymous.annotation, 'annotation for anonymous function export');
+    test.equal(result.testfunction3.annotation, 'annotation for variable assigned function');
     
     test.done();
   });
