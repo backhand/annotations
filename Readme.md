@@ -1,6 +1,8 @@
 Doc-block embedded annotations for node.js functions/modules
 =========================
 
+[![Build Status](https://secure.travis-ci.org/backhand/annotations.png?branch=master)](https://travis-ci.org/backhand/annotations)
+
 Usage:
 ------
 var annotations = require('annotations');

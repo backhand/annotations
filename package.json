@@ -5,9 +5,12 @@
   "author": "Frederik Hannibal <frederik@backhand.dk>",
   "keywords": ["annotations"],
   "repository": "https://github.com/backhand/annotations.git",
-  "main": "index",
-  "scripts": {
-    "test": "nodeunit test"
+  "main": "./lib/annotations",
+  "devDependencies": {
+    "nodeunit": "*"
   },
-  "engines": { "node": ">= 0.6.2" }
+  "scripts": {
+    "test": "node_modules/nodeunit/bin/nodeunit test"
+  },
+  "engines": { "node": ">=0.6.2" }
 }
