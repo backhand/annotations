@@ -1,7 +1,8 @@
 {
   "name": "annotations",
   "description": "Docblock-embedded annotations for node.js",
-  "version": "0.1.337",
+  "version": "0.1.338",
+  "license": "MIT",
   "author": "Frederik Hannibal <frederik@backhand.dk>",
   "keywords": [
     "annotations"
