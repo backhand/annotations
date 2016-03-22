@@ -3,14 +3,18 @@
   "description": "Docblock-embedded annotations for node.js",
   "version": "0.1.337",
   "author": "Frederik Hannibal <frederik@backhand.dk>",
-  "keywords": ["annotations"],
+  "keywords": [
+    "annotations"
+  ],
   "repository": "https://github.com/backhand/annotations.git",
   "main": "./lib/annotations",
   "devDependencies": {
-    "nodeunit": "0.8.4"
+    "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "node_modules/nodeunit/bin/nodeunit test"
+    "test": "node_modules/.bin/mocha --reporter spec test"
   },
-  "engines": { "node": ">=0.6.2" }
+  "engines": {
+    "node": ">=0.6.2"
+  }
 }
