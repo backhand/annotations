@@ -7,7 +7,7 @@
   "repository": "https://github.com/backhand/annotations.git",
   "main": "./lib/annotations",
   "devDependencies": {
-    "nodeunit": "*"
+    "nodeunit": "0.8.4"
   },
   "scripts": {
     "test": "node_modules/nodeunit/bin/nodeunit test"
