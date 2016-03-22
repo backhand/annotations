@@ -10,6 +10,17 @@ function testfileTests(result, test) {
   test.deepEqual(result.testfunction3.duplicate, ['first','second','third']);
   test.equal(result.testfunction4.hi, 'there');
   test.equal(result.testfunction5.annotation, 'annotation for variable assigned function');
+  test.equal(result.testfunction6.annotation, 'test');
+  test.equal(result.testfunction7.annotation, 'test');
+  test.equal(result.testfunction8.annotation, 'test');
+  test.equal(result.testfunction9.annotation, 'test');
+  test.equal(result.testfunction10.annotation, 'test');
+  test.equal(result.testfunction11.annotation, 'test');
+  test.equal(result.testfunction12.annotation, 'test');
+  test.equal(result.testfunction13.annotation, 'test');
+  test.equal(result.testfunction14.annotation, 'test');
+  test.equal(result.testfunction15.annotation, 'test');
+  test.equal(result.testfunction16.annotation, 'test');
 }
 
 exports['Test 1: data/testfile.js, asynchronous'] = function(test) {

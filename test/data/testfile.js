@@ -54,3 +54,73 @@ exports['testfunction4'] = function() {
 var testfunction5 = function() {
   
 };
+
+/**
+ *
+ * @annotation test
+ */
+let testfunction6 = function() {
+
+};
+
+/**
+ *
+ * @annotation test
+ */
+const testfunction7 = function() {
+
+};
+
+/**
+ *
+ * @annotation test
+ */
+var testfunction8 = new Function();
+
+/**
+ *
+ * @annotation test
+ */
+let testfunction9 = new Function();
+
+/**
+ *
+ * @annotation test
+ */
+const testfunction10 = new Function();
+
+/**
+ *
+ * @annotation test
+ */
+var testfunction11 = () => console.log('Demo');
+
+/**
+ *
+ * @annotation test
+ */
+var testfunction12 = (name) => console.log('Hello, ' + name);
+
+/**
+ *
+ * @annotation test
+ */
+const testfunction13 = () => console.log('Demo');
+
+/**
+ *
+ * @annotation test
+ */
+const testfunction14 = (name) => console.log('Hello, ' + name);
+
+/**
+ *
+ * @annotation test
+ */
+let testfunction15 = () => console.log('Demo');
+
+/**
+ *
+ * @annotation test
+ */
+let testfunction16 = (name) => console.log('Hello, ' + name);
