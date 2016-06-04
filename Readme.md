@@ -59,8 +59,7 @@ Supports the following types of function definition syntax:
 
     var <name> = function(...) { ... }
 
-
-
+    module.exports = {...}
 
 The MIT License (MIT)
 ---------------------
