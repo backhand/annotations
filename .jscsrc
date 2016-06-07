@@ -1,0 +1,14 @@
+{
+  "preset": "google",
+  "disallowSpacesInsideObjectBrackets": null,
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "maximumLineLength": 115,
+  "disallowQuotedKeysInObjects": "allButReserved",
+  "validateQuoteMarks": {
+    "mark": "'",
+    "escape": true
+  },
+  "excludeFiles": [
+      "node_modules/**"
+  ]
+}

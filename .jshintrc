@@ -1,0 +1,11 @@
+{
+  "node": true,
+  "unused": "vars",
+  "multistr": true,
+  "evil": true,
+  "esnext": true,
+  "mocha": true,
+  "globals": { 
+    "actimo": true
+  }
+}
