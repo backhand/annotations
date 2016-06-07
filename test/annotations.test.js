@@ -13,6 +13,12 @@ describe('annotations', function(done) {
     var result = annotations.getSync('test/data/testfile.js');
     testfileTests(result);
   });
+
+  it('Testing module annotations', function() {
+    var result = annotations.getSync('test/data/testfile2.js');
+    assert.equal(result.module.annotation, 'annotation for module');
+  });
+
 }); // End describe annotations
 
 function testfileTests(result) {
