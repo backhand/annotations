@@ -40,6 +40,16 @@ exports.testfunction3 = function() {
 };
 
 /**
+ *
+ * @bummer this annotation goes nowhere
+ */
+var hej = 123;
+
+function unAnnotatedFunction3a() {
+
+}
+
+/**
  * 
  * @hi there
  */
@@ -124,3 +134,10 @@ let testfunction15 = () => console.log('Demo');
  * @annotation test
  */
 let testfunction16 = (name) => console.log('Hello, ' + name);
+
+/**
+ *
+ * @annotation test
+ */
+exports.testfunction17 = (name) => console.log('Hello, ' + name);
+

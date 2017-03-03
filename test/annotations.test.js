@@ -29,6 +29,7 @@ function testfileTests(result) {
   assert.equal(result.anonymous.emptyannotation, true);
   assert.equal(result.anonymous.anotheremptyannotation, true);
   assert.deepEqual(result.testfunction3.duplicate, ['first','second','third']);
+  assert.deepEqual(result.unAnnotatedFunction3a, {});
   assert.equal(result.testfunction4.hi, 'there');
   assert.equal(result.testfunction5.annotation, 'annotation for variable assigned function');
   assert.equal(result.testfunction6.annotation, 'test');
@@ -42,4 +43,5 @@ function testfileTests(result) {
   assert.equal(result.testfunction14.annotation, 'test');
   assert.equal(result.testfunction15.annotation, 'test');
   assert.equal(result.testfunction16.annotation, 'test');
+  assert.equal(result.testfunction17.annotation, 'test');
 }
