@@ -141,3 +141,15 @@ let testfunction16 = (name) => console.log('Hello, ' + name);
  */
 exports.testfunction17 = (name) => console.log('Hello, ' + name);
 
+/**
+ *
+ * @annotation test
+ */
+class testclass18 {}
+
+/**
+ *
+ * @annotation test
+ */
+module.exports = class testclass19 {}
+

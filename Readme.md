@@ -61,6 +61,10 @@ Supports the following types of function definition syntax:
 
     module.exports = {...}
 
+    module.export = class <name> {}
+
+    class <name> {}
+
 The MIT License (MIT)
 ---------------------
 

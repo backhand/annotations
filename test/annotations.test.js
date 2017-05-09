@@ -44,4 +44,6 @@ function testfileTests(result) {
   assert.equal(result.testfunction15.annotation, 'test');
   assert.equal(result.testfunction16.annotation, 'test');
   assert.equal(result.testfunction17.annotation, 'test');
+  assert.equal(result.testclass18.annotation, 'test');
+  assert.equal(result.testclass19.annotation, 'test');
 }
