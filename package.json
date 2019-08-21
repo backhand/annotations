@@ -1,7 +1,7 @@
 {
   "name": "annotations",
   "description": "Docblock-embedded annotations for node.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "author": "Frederik Hannibal <frederik@backhand.dk>",
   "keywords": [
@@ -16,6 +16,6 @@
     "test": "node_modules/.bin/mocha --reporter spec test"
   },
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=7.10.1"
   }
 }

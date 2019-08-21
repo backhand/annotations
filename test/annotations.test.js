@@ -1,5 +1,7 @@
-var annotations = require('../lib/annotations');
-var assert = require('assert');
+'use strict';
+
+const annotations = require('../lib/annotations');
+const assert = require('assert');
 
 describe('annotations', function(done) {
   it('should retrieve correct annotations from functions, async', function() {
@@ -10,15 +12,19 @@ describe('annotations', function(done) {
   });
 
   it('should retrieve correct annotations from functions, sync', function() {
-    var result = annotations.getSync('test/data/testfile.js');
+    const result = annotations.getSync('test/data/testfile.js');
     testfileTests(result);
   });
 
-  it('Testing module annotations', function() {
-    var result = annotations.getSync('test/data/testfile2.js');
+  it('should handle module annotations', function() {
+    const result = annotations.getSync('test/data/testfile2.js');
     assert.equal(result.module.annotation, 'annotation for module');
   });
 
+  it('should handle async functions', function() {
+    const result = annotations.getSync('test/data/testfile3.js');
+    testfileTests(result);
+  });
 }); // End describe annotations
 
 function testfileTests(result) {
