@@ -16,6 +16,11 @@ describe('annotations', function(done) {
     testfileTests(result);
   });
 
+  it('should retrieve correct annotations from functions, await', async function() {
+    const result = await annotations.getSync('test/data/testfile.js');
+    testfileTests(result);
+  });
+
   it('should handle module annotations', function() {
     const result = annotations.getSync('test/data/testfile2.js');
     assert.equal(result.module.annotation, 'annotation for module');
